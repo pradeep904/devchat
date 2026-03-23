@@ -23,16 +23,16 @@ export function LoadingIndicator() {
       `}
       >
         <span
-          className={`w-2 h-2 rounded-full animate-bounce ${isDark ? "bg-[#4ec9b0]" : "bg-teal-500"}`}
+          className={`w-2 h-2 rounded-full animate-ping ${isDark ? "bg-[#4ec9b0]" : "bg-teal-500"}`}
           style={{ animationDelay: "0ms" }}
         />
         <span
-          className={`w-2 h-2 rounded-full animate-bounce ${isDark ? "bg-[#4ec9b0]" : "bg-teal-500"}`}
-          style={{ animationDelay: "150ms" }}
+          className={`w-2 h-2 rounded-full animate-ping ${isDark ? "bg-[#4ec9b0]" : "bg-teal-500"}`}
+          style={{ animationDelay: "100ms" }}
         />
         <span
-          className={`w-2 h-2 rounded-full animate-bounce ${isDark ? "bg-[#4ec9b0]" : "bg-teal-500"}`}
-          style={{ animationDelay: "300ms" }}
+          className={`w-2 h-2 rounded-full animate-ping ${isDark ? "bg-[#4ec9b0]" : "bg-teal-500"}`}
+          style={{ animationDelay: "200ms" }}
         />
         <span
           className={`text-sm ml-1 ${isDark ? "text-gray-400" : "text-gray-500"}`}
